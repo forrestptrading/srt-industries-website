@@ -1,0 +1,110 @@
+.fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .8s ease, transform .8s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.service-card,
+.feature-card,
+.price-card,
+.equipment-card,
+.gallery-placeholder,
+.faq-item,
+.contact-card {
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.service-card:hover,
+.feature-card:hover,
+.price-card:hover,
+.equipment-card:hover,
+.gallery-placeholder:hover,
+.faq-item:hover,
+.contact-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 20px 50px rgba(0,0,0,.30);
+}
+
+.primary-btn,
+.secondary-btn,
+.quote-btn {
+
+    transition:
+        transform .2s ease,
+        background .2s ease;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover,
+.quote-btn:hover {
+
+    transform: scale(1.05);
+
+}.fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .8s ease, transform .8s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.service-card,
+.feature-card,
+.price-card,
+.equipment-card,
+.gallery-placeholder,
+.faq-item,
+.contact-card {
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.service-card:hover,
+.feature-card:hover,
+.price-card:hover,
+.equipment-card:hover,
+.gallery-placeholder:hover,
+.faq-item:hover,
+.contact-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 20px 50px rgba(0,0,0,.30);
+}
+
+.primary-btn,
+.secondary-btn,
+.quote-btn {
+
+    transition:
+        transform .2s ease,
+        background .2s ease;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover,
+.quote-btn:hover {
+
+    transform: scale(1.05);
+
+}
+
+
+
+
+
