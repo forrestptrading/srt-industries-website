@@ -6,6 +6,11 @@ if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
 }
 
+function getValue(id) {
+  const element = document.getElementById(id);
+  return element ? element.value.trim() : "";
+}
+
 if (quoteForm) {
   quoteForm.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -35,11 +40,6 @@ ${message}`
     window.location.href =
       `mailto:forrestpbusiness@icloud.com?subject=${subject}&body=${body}`;
   });
-}
-
-function getValue(id) {
-  const element = document.getElementById(id);
-  return element ? element.value.trim() : "";
 }
 
 
