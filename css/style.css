@@ -1,4 +1,4 @@
-/* =====================================================
+               /* ===================================================== 
    SRT Industries Version 2.0
    FOUNDATION
 ===================================================== */
@@ -69,14 +69,37 @@ a {
   gap: 28px;
 }
 
-.logo {
-  font-size: 1.7rem;
-  font-weight: 900;
-  letter-spacing: 0.5px;
+.logo{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    font-weight:900;
 }
 
-.logo span {
-  color: var(--orange);
+.logo img{
+    width:62px;
+    height:62px;
+    border-radius:50%;
+    box-shadow:0 6px 18px rgba(0,0,0,.35);
+}
+
+.logo-text{
+    display:flex;
+    flex-direction:column;
+    line-height:1.1;
+}
+
+.logo-text span{
+    color:#fff;
+    font-size:1.35rem;
+    font-weight:900;
+}
+
+.logo-text small{
+    color:#b8bec9;
+    font-size:.72rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
 }
 
 .nav-links {
