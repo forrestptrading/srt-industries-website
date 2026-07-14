@@ -38,10 +38,6 @@ ${message}`
     }
 
     window.location.href =
-      `mailto:forrestpbusiness@icloud.com?subject=${subject}&body=${body}`;
+      `mailto:contactsrtindustries@gmail.com?subject=${subject}&body=${body}`;
   });
 }
-
-
-
-
