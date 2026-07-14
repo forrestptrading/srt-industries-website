@@ -6,6 +6,20 @@ if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
 }
 
+const hoursLine = Array.from(
+  document.querySelectorAll(".contact-card p")
+).find(function (paragraph) {
+  const label = paragraph.querySelector("strong");
+  return label && label.textContent.trim() === "Hours:";
+});
+
+if (hoursLine) {
+  hoursLine.innerHTML =
+    "<strong>Hours:</strong><br>" +
+    "Monday–Saturday: 8:00 AM–7:00 PM<br>" +
+    "Sunday: By Appointment";
+}
+
 function getValue(id) {
   const element = document.getElementById(id);
   return element ? element.value.trim() : "";
